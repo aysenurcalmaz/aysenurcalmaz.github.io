@@ -1,0 +1,85 @@
+html,body,*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Oswald:wght@200;300;400&display=swap');
+
+
+
+.heading{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  color: black;
+  font-family: 'Comic Neue', cursive;
+
+}
+.Menu{
+  width: 100%;
+  
+  
+}
+.col1, .col2, .col3{
+  background-color: gray;
+  float: left;
+  width: 30.3%;
+  border: 2px solid black;
+  height: auto;
+  margin: 1.5%;
+  color: black;
+  font-size: 20px;
+  font-family:'Oswald', sans-serif;
+}
+
+.chicken{
+  position: relative;
+  text-align: right;
+  border: 3px solid black;
+  width: 35%;
+  background-color: pink;
+  margin-left: 65%;
+  margin-top: 0;
+  
+}
+
+.beef{
+  position: relative;
+  text-align: right;
+  border: 3px solid black;
+  width: 35%;
+  background-color: red;
+  margin-left: 65%;
+  margin-top: 0;
+  
+}
+
+.sushi{
+  position: relative;
+  text-align: right;
+  border: 3px solid black;
+  width: 35%;
+  background-color: yellow;
+  margin-left: 65%;
+  margin-top: 0;
+  
+}
+
+@media screen and (max-width:992px){
+  .col1,.col2{
+    width: 47%;
+  }
+  .col3{
+    width: 97%;
+  }
+  
+}
+
+@media screen and (max-width:768px){
+  .col1,.col2,.col3{
+    width: 97%;
+  }
+}
